@@ -1,0 +1,427 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PortfolioTiemen.nl" resolutions="1x" timestamp="1527805066476">
+  <folder name="assets">
+    <file name="konijn-portfolio.html" crc="4189095005" seo="true" mt="1510678000000"/>
+    <file name="achtergrond-website.png" crc="4276557476" seo="true" mt="1510613159000"/>
+    <file name="mvi_4645_2.mp4" crc="4171143094" seo="true" mt="1511359924000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-stramien.css" crc="4110576890" ref="index:dtc-media"/>
+    <file name="index.css" crc="3770314773" ref="index"/>
+    <file name="dtc-media.css" crc="4024763831" ref="dtc-media"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:dtc-media"/>
+    <file name="museutils.js" crc="3803043152" ref="index:dtc-media"/>
+    <file name="whatinput.js" crc="86476730" ref="index:dtc-media"/>
+    <file name="museconfig.js" crc="380897831" ref="index:dtc-media"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:dtc-media"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:dtc-media"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index:dtc-media"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:dtc-media"/>
+    <file name="require.js" crc="4157109226" ref="index:dtc-media"/>
+    <file name="webpro.js" crc="242022427" ref="index"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u101-4.png" crc="3885843230" ref="index:dtc-media"/>
+    <file name="u678-4.png" crc="154745218" ref="index:dtc-media"/>
+    <file name="u107-4.png" crc="3997346415" ref="index:dtc-media"/>
+    <file name="geplakte-svg-232425-x-212.svg" crc="208842065" seo="true" ref="index:dtc-media">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="geplakte svg 232425 x 212_poster_.png" crc="473013910" ref="index"/>
+    <file name="geplakte-svg-6973-x-6.svg" crc="4192179036" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="geplakte svg 6973 x 6_poster_.png" crc="4181809658" ref="index"/>
+    <file name="tiemen-meertens.png" crc="3782412911" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="achtergrond website.png" crc="4276557476" ref="index:dtc-media">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u2866-4.png" crc="335749501" ref="index"/>
+    <file name="u2867-4.png" crc="4246594223" ref="index"/>
+    <file name="u2957-4.png" crc="462970573" ref="index"/>
+    <file name="u2961-7.png" crc="32940395" ref="index"/>
+    <file name="u2958-4.png" crc="368192500" ref="index"/>
+    <file name="u2877-4.png" crc="524785558" ref="index"/>
+    <file name="u2908-4.png" crc="4143331115" ref="index"/>
+    <file name="u2909-4.png" crc="399139067" ref="index"/>
+    <file name="scrollbeweging.gif" crc="56385026" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u2621_states.png" crc="523032080" ref="index"/>
+    <file name="u2621_states-r.png" crc="492119342" ref="index"/>
+    <file name="u4016_states.png" crc="3887518805" ref="index"/>
+    <file name="u4016_states-r.png" crc="3965349185" ref="index"/>
+    <file name="u4025_states.png" crc="461852783" ref="index"/>
+    <file name="u4025_states-r.png" crc="247404486" ref="index"/>
+    <file name="u3968_states.png" crc="132902546" ref="index"/>
+    <file name="u3968_states-r.png" crc="4145919619" ref="index"/>
+    <file name="u9786_states.png" crc="453300448" ref="index"/>
+    <file name="u9786_states-r.png" crc="470674898" ref="index"/>
+    <file name="u4013_states.png" crc="413565286" ref="index"/>
+    <file name="u4013_states-r.png" crc="297993050" ref="index"/>
+    <file name="u3974_states.png" crc="4249774104" ref="index"/>
+    <file name="u3974_states-r.png" crc="4135427302" ref="index"/>
+    <file name="u4010_states.png" crc="3822903143" ref="index"/>
+    <file name="u4010_states-r.png" crc="342365366" ref="index"/>
+    <file name="u3992_states.png" crc="388067732" ref="index"/>
+    <file name="u3992_states-r.png" crc="189349405" ref="index"/>
+    <file name="u4007_states.png" crc="4294761464" ref="index"/>
+    <file name="u4007_states-r.png" crc="232960254" ref="index"/>
+    <file name="u4177-6.png" crc="4105555241" ref="index"/>
+    <file name="alle-cases-off.jpg" crc="120031058" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alle-cases-on.jpg" crc="449056919" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="creatie 2.jpg" crc="130142853" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="creatie1.jpg" crc="3953698752" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0411.jpg" crc="4084688928" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0527.jpg" crc="369746169" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6264.jpg" crc="203741972" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_7994.jpg" crc="4285352910" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="schermafbeelding 2017-03-28 om 213945.jpg" crc="444531873" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tiemen meertens expo 17.jpg" crc="3807543311" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4177multiphoto.jpg" crc="158075983" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4315.jpg" crc="55721394" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4946-bewerkt.jpg" crc="35436869" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4953-bewerkt.jpg" crc="116452943" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4958-bewerkt.jpg" crc="4008265692" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4976.jpg" crc="359618499" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5010.jpg" crc="72124977" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5023.jpg" crc="259597243" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5049.jpg" crc="409148830" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0106.jpg" crc="4070537564" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0155.jpg" crc="3928195059" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0179.jpg" crc="450019448" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3101.jpg" crc="460735217" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3615.jpg" crc="532334791" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5178.jpg" crc="531424658" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3641.jpg" crc="4267922172" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tunnelvisie tiemen.jpg" crc="4106155282" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="creatie 2240x160.jpg" crc="45097313" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="creatie1240x160.jpg" crc="4174642509" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0411-crop-u7905.jpg" crc="120060753" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0527-crop-u7925.jpg" crc="4252980527" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6264240x160.jpg" crc="3809885104" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_7994240x160.jpg" crc="3826920545" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="schermafbeelding 2017-03-28 om 213945228x160.jpg" crc="161959222" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tiemen meertens expo 17240x160.jpg" crc="204364631" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4177multiphoto240x160.jpg" crc="470851511" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4315240x160.jpg" crc="433878913" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4946-bewerkt240x160.jpg" crc="3906138055" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4953-bewerkt240x160.jpg" crc="399037643" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4958-bewerkt240x160.jpg" crc="3767581437" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4976240x160.jpg" crc="3913723553" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5010240x160.jpg" crc="4150392726" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5023240x160.jpg" crc="4245243249" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5049240x160.jpg" crc="3924793535" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0106222x178.jpg" crc="344438997" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0155222x178.jpg" crc="457003389" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0179222x178.jpg" crc="494355044" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3101240x160.jpg" crc="97564356" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3615-crop-u8685.jpg" crc="301863591" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5178240x160.jpg" crc="133834190" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3641240x161.jpg" crc="94311449" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tunnelvisie tiemen-crop-u8765.jpg" crc="4178386878" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="logopedie-praktijk-screen-groen.jpg" crc="4216357267" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2910-4.png" crc="3945019054" ref="index"/>
+    <file name="u2865-4.png" crc="421499936" ref="index"/>
+    <file name="geplakte-svg-421071-x-226.svg" crc="4096350766" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="geplakte svg 421071 x 226_poster_.png" crc="496485929" ref="index"/>
+    <file name="minimal.jpg" crc="4243033281" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="minimal222x157.jpg" crc="217280645" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="normanollestad.jpg" crc="360861825" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="normanollestad222x157.jpg" crc="335004508" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ecoorn.jpg" crc="4160960791" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ecoorn222x157.jpg" crc="219175484" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vivare.jpg" crc="339118544" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vivare-bouwhekzijl-crop-u2564.png" crc="3898234178" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nieuwbouwkenners.jpg" crc="130378221" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nieuwbouwkenners222x157.jpg" crc="4264938217" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dtc.jpg" crc="4221003361" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dtc222x157.jpg" crc="3947811852" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="webbio.jpg" crc="502961814" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="webbio222x157.jpg" crc="45609640" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="recepten-vormgegeven.jpg" crc="335950973" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="recepten-vormgegeven222x157.jpg" crc="338764685" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="awwa.jpg" crc="496213623" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="awwa222x157.jpg" crc="400202918" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2326-4.png" crc="4249510341" ref="index"/>
+    <file name="u3370-6.png" crc="4252044948" ref="index"/>
+    <file name="u3649-4.png" crc="3784522928" ref="dtc-media"/>
+    <file name="u3646-4.png" crc="4229524452" ref="dtc-media"/>
+    <file name="eekie-screen.png" crc="3760720246" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3643-8.png" crc="320085849" ref="dtc-media"/>
+    <file name="u3354-4.png" crc="4157407197" ref="dtc-media"/>
+    <file name="mercedes_s-klasse-2017-ext-01-crop-u3610.jpg" crc="410324049" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="dtcmedia3.png" crc="3924630235" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u9696-4.png" crc="527107249" ref="dtc-media"/>
+    <file name="u3357-6.png" crc="304312261" ref="dtc-media"/>
+    <file name="u9699-4.png" crc="204627268" ref="dtc-media"/>
+    <file name="u3364-8.png" crc="151859291" ref="dtc-media"/>
+    <file name="logopedie-praktijk-screen-click.png" crc="415504002" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="logopedie-praktijk-screen-rollover.png" crc="3855372343" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3430-4.png" crc="4221891585" ref="dtc-media"/>
+    <file name="u3427-4.png" crc="161592874" ref="dtc-media"/>
+    <file name="kwikwebbio-click.png" crc="4005714226" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="kwikwebbio-rollover.png" crc="4220807829" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3494-4.png" crc="138536843" ref="dtc-media"/>
+    <file name="u3491-4.png" crc="4273922670" ref="dtc-media"/>
+    <file name="vivare-bouwhekzijl.png" crc="389385901" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3523-4.png" crc="280174492" ref="dtc-media"/>
+    <file name="u3526-5.png" crc="4064909795" ref="dtc-media"/>
+    <file name="recepten-vormgegeven.png" crc="436199503" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3565-4.png" crc="4238530171" ref="dtc-media"/>
+    <file name="u3575-4.png" crc="3782265540" ref="dtc-media"/>
+    <file name="awwa-film.jpg" crc="4229805549" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3681-4.png" crc="4102397887" ref="dtc-media"/>
+    <file name="u3678-4.png" crc="466501273" ref="dtc-media"/>
+    <file name="schermafbeelding 2015-05-07 om 175551.jpg" crc="223108365" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="bg-macbook.png" crc="3880470041" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3713-4.png" crc="417879496" ref="dtc-media"/>
+    <file name="u3710-4.png" crc="448005522" ref="dtc-media"/>
+    <file name="norman-ollestad-screen-click.png" crc="492563456" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="norman-ollestad-screen-rollover.png" crc="133505752" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3732-4.png" crc="3890450460" ref="dtc-media"/>
+    <file name="u3742-4.png" crc="56846153" ref="dtc-media"/>
+    <file name="minimal-screen.png" crc="3981302219" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u4066-4.png" crc="4056175149" ref="dtc-media"/>
+    <file name="u4069-4.png" crc="130405439" ref="dtc-media"/>
+    <file name="nieuwbouwkenners-screen.png" crc="401585301" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="awwa-poster.png" crc="4252866798" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="dtcmedia2.png" crc="4119218718" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+    <file name="u3417-8.png" crc="338673251" ref="dtc-media"/>
+    <file name="u9702-8.png" crc="161014737" ref="dtc-media"/>
+    <file name="u3488-8.png" crc="531715622" ref="dtc-media"/>
+    <file name="u3529-8.png" crc="4243157788" ref="dtc-media"/>
+    <file name="u3675-8.png" crc="3807272045" ref="dtc-media"/>
+    <file name="u3707-8.png" crc="85604329" ref="dtc-media"/>
+    <file name="u3745-10.png" crc="43416992" ref="dtc-media"/>
+    <file name="u4072-8.png" crc="145339401" ref="dtc-media"/>
+    <file name="u3578-8.png" crc="4190455504" ref="dtc-media"/>
+    <file name="nieuwbouwkenners-logo.jpg" crc="282984670" seo="true" ref="dtc-media">
+      <caption webpage="dtc-media" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3876490693" seo="true" mt="1527541393698" redirect="true"/>
+  <file name="dtc-media.html" crc="468326726" seo="true" mt="1527538631912" redirect="true"/>
+</manifest>
