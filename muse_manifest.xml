@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PortfolioTiemen.nl" resolutions="1x" timestamp="1527937858598">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tiemenmeertens.nl" resolutions="1x" timestamp="1528044452503">
   <folder name="assets">
     <file name="konijn-portfolio.html" crc="4189095005" seo="true" mt="1510678000000"/>
     <file name="achtergrond-website.png" crc="4276557476" seo="true" mt="1510613159000"/>
@@ -7,8 +7,8 @@
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-stramien.css" crc="88385032" ref="index:grafische-cases"/>
-    <file name="index.css" crc="4201905324" ref="index"/>
-    <file name="grafische-cases.css" crc="261120441" ref="grafische-cases"/>
+    <file name="index.css" crc="179939547" ref="index"/>
+    <file name="grafische-cases.css" crc="243398259" ref="grafische-cases"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grafische-cases"/>
@@ -392,12 +392,12 @@
       <caption webpage="dtc-media" alt=""/>
       <caption webpage="grafische-cases" alt=""/>
     </file>
-    <file name="dtcmedia2.png" crc="4119218718" seo="true" ref="grafische-cases">
+    <file name="dtcmedia2.png" crc="4119218718" ref="grafische-cases">
       <caption webpage="dtc-media" alt=""/>
       <caption webpage="grafische-cases" alt=""/>
     </file>
     <file name="u3417-8.png" crc="267638957" ref="grafische-cases"/>
-    <file name="u9702-8.png" crc="161014737" ref="grafische-cases"/>
+    <file name="u9702-8.png" crc="286591648" ref="grafische-cases"/>
     <file name="u3488-8.png" crc="531715622" ref="grafische-cases"/>
     <file name="u3529-8.png" crc="4243157788" ref="grafische-cases"/>
     <file name="u3675-8.png" crc="3807272045" ref="grafische-cases"/>
@@ -410,6 +410,6 @@
       <caption webpage="grafische-cases" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3819728081" seo="true" mt="1527933467429" redirect="true"/>
-  <file name="grafische-cases.html" crc="69864054" seo="true" mt="1527937748138" redirect="true"/>
+  <file name="index.html" crc="525482783" seo="true" mt="1528035661223" redirect="true"/>
+  <file name="grafische-cases.html" crc="4274047782" seo="true" mt="1528041556573" redirect="true"/>
 </manifest>
