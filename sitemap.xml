@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://tiemenmeertens.nl/index.html</loc>
-    <lastmod>2018-06-03</lastmod>
+    <lastmod>2018-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -170,7 +170,7 @@
   </url>
   <url>
     <loc>http://tiemenmeertens.nl/grafische-cases.html</loc>
-    <lastmod>2018-06-03</lastmod>
+    <lastmod>2018-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -205,12 +205,6 @@
     </image:image>
     <image:image>
       <image:loc>http://tiemenmeertens.nl/images/nieuwbouwkenners-screen.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tiemenmeertens.nl/images/awwa-poster.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tiemenmeertens.nl/images/nieuwbouwkenners-logo.jpg</image:loc>
     </image:image>
   </url>
   <url>

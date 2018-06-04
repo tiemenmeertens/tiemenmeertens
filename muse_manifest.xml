@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tiemenmeertens.nl" resolutions="1x" timestamp="1528044452503">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tiemenmeertens.nl" resolutions="1x" timestamp="1528071040102">
   <folder name="assets">
     <file name="konijn-portfolio.html" crc="4189095005" seo="true" mt="1510678000000"/>
     <file name="achtergrond-website.png" crc="4276557476" seo="true" mt="1510613159000"/>
@@ -7,8 +7,8 @@
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-stramien.css" crc="88385032" ref="index:grafische-cases"/>
-    <file name="index.css" crc="179939547" ref="index"/>
-    <file name="grafische-cases.css" crc="243398259" ref="grafische-cases"/>
+    <file name="index.css" crc="75543570" ref="index"/>
+    <file name="grafische-cases.css" crc="189723160" ref="grafische-cases"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grafische-cases"/>
@@ -24,7 +24,7 @@
     <file name="musewpslideshow.js" crc="457073769" ref="index"/>
     <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
     <file name="touchswipe.js" crc="4066113679" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:grafische-cases"/>
   </folder>
   <folder name="images">
     <file name="u101-4.png" crc="3885843230" ref="index:grafische-cases"/>
@@ -89,8 +89,8 @@
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="u2621_states.png" crc="523032080" ref="index"/>
     <file name="u2621_states-r.png" crc="492119342" ref="index"/>
-    <file name="u4016_states.png" crc="3887518805" ref="index"/>
-    <file name="u4016_states-r.png" crc="3965349185" ref="index"/>
+    <file name="u4016_states.png" crc="4053975659" ref="index"/>
+    <file name="u4016_states-r.png" crc="84282766" ref="index"/>
     <file name="u4025_states.png" crc="461852783" ref="index"/>
     <file name="u4025_states-r.png" crc="247404486" ref="index"/>
     <file name="u3968_states.png" crc="132902546" ref="index"/>
@@ -388,7 +388,7 @@
       <caption webpage="dtc-media" alt=""/>
       <caption webpage="grafische-cases" alt=""/>
     </file>
-    <file name="awwa-poster.png" crc="4252866798" seo="true" ref="grafische-cases">
+    <file name="awwa-poster.png" crc="333997034" ref="grafische-cases">
       <caption webpage="dtc-media" alt=""/>
       <caption webpage="grafische-cases" alt=""/>
     </file>
@@ -405,11 +405,11 @@
     <file name="u3745-10.png" crc="43416992" ref="grafische-cases"/>
     <file name="u4072-8.png" crc="145339401" ref="grafische-cases"/>
     <file name="u3578-8.png" crc="4190455504" ref="grafische-cases"/>
-    <file name="nieuwbouwkenners-logo.jpg" crc="282984670" seo="true" ref="grafische-cases">
+    <file name="nieuwbouwkenners-logo.jpg" crc="282984670" ref="grafische-cases">
       <caption webpage="dtc-media" alt=""/>
       <caption webpage="grafische-cases" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="525482783" seo="true" mt="1528035661223" redirect="true"/>
-  <file name="grafische-cases.html" crc="4274047782" seo="true" mt="1528041556573" redirect="true"/>
+  <file name="index.html" crc="348701842" seo="true" mt="1528069807607" redirect="true"/>
+  <file name="grafische-cases.html" crc="3916878368" seo="true" mt="1528070927217" redirect="true"/>
 </manifest>
