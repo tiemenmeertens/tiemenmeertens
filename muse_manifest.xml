@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tiemenmeertens.nl" resolutions="1x" timestamp="1528071040102">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tiemenmeertens.nl" resolutions="1x" timestamp="1528072098916">
   <folder name="assets">
     <file name="konijn-portfolio.html" crc="4189095005" seo="true" mt="1510678000000"/>
     <file name="achtergrond-website.png" crc="4276557476" seo="true" mt="1510613159000"/>
@@ -8,7 +8,7 @@
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-stramien.css" crc="88385032" ref="index:grafische-cases"/>
     <file name="index.css" crc="75543570" ref="index"/>
-    <file name="grafische-cases.css" crc="189723160" ref="grafische-cases"/>
+    <file name="grafische-cases.css" crc="4217227906" ref="grafische-cases"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grafische-cases"/>
@@ -34,6 +34,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="dtc-media" alt=""/>
+      <caption webpage="grafische-cases" alt=""/>
       <caption webpage="grafische-cases" alt=""/>
     </file>
     <file name="geplakte svg 232425 x 212_poster_.png" crc="473013910" ref="index"/>
@@ -410,6 +411,6 @@
       <caption webpage="grafische-cases" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="348701842" seo="true" mt="1528069807607" redirect="true"/>
-  <file name="grafische-cases.html" crc="3916878368" seo="true" mt="1528070927217" redirect="true"/>
+  <file name="index.html" crc="348701842" seo="true" mt="1528071820320" redirect="true"/>
+  <file name="grafische-cases.html" crc="4167332610" seo="true" mt="1528071820321" redirect="true"/>
 </manifest>
