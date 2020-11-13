@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Tiemen Meertens</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	
+	<div class="container">
+		<header>
+
+			<div id="header" class="header"></div>
+			
+		</header>
+		
+		<ul class="breadcrumb">
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="mijn-werk.html">Mijn werk</a></li>
+			<li>Recepten vormgegeven</li>
+		</ul>
+		
+		<br><br>
+		
+		<div class="playground-blok">
+			<div class="beschrijving-playground">
+			<h2>Recepten vormgegeven</h2>
+				<p>Op de opleiding zouden alle leerlingen die de vormgeving kant op wilden een recept zelf maken en fotograferen en vervolgens vormgeven. Aan de hand van alle ingekomen recepten met foto’s  is daar een boek uit ontstaan.</p>
+				<p><br>
+					<b>Kookboek</b><br>
+Bijdrage: vormgeving<br>
+In opdracht van: RijnIJssel<br><br>
+							
+				</p>
+			</div>
+			<div class="opdracht-playground">
+				<img src="images/mw_recepten.jpg" class="opdracht-afbeelding" alt="opdracht-afbeelding">
+			</div>
+		</div>
+		
+			<div class="grafische-opdrachten-container">
+				<ul class="grafische-opdrachten">
+					<li>
+						<a href="mijn-werk.html#playground">
+						<img src="images/mijn-werk-preview.jpg" alt="dtc">
+						<p class="portfolio-titles">Mijn werk</p>
+						</a>
+					</li>
+						
+					<li>
+						<a href="fotografie.html">
+						<img src="images/IMG_6250.jpg" alt="Experimentele fotografie">
+						<p class="Experimentele fotografie">Playground: fotografie</p>
+						</a>
+					</li>
+				</ul>
+			</div>	
+		
+		
+	</div>
+	
+	<footer>
+
+
+
+<div id="footer" class="footer"></div>
+		
+		
+		
+		
+		
+	</footer>
+
+	
+	
+	
+	
+	
+		<script>
+	
+		var menu = document.getElementById('menu');
+		var nav = document.getElementById('nav');
+		var exit = document.getElementById('exit');
+	
+		menu.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+		exit.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+	</script>
+	
+				<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+ $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+	
+	
+	
+	
+	
+	
+</body>
+</html>

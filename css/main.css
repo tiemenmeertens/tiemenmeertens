@@ -1,0 +1,536 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: #EAEAEA url('../images/achtergrond website.png');
+}
+
+.header {
+	width: 100%;
+}
+
+p, blockquote {
+	font-size: .8em;
+	line-height: 1.6em;
+	margin: 0px;
+	margin-right: 20px;
+	padding: 0px;
+}
+
+p, standaard {
+	font-size: .9em;
+	color: #404040;
+	line-height: 1.6em;
+}
+
+h1 {
+	font-size: 2.3em;
+	color: #FFFFFF;
+	line-height: .9em;
+	margin-top: 0px;
+}
+
+h2 {
+	font-size: 1.4em;
+	color: #6E6E6E;
+	line-height: .9em;
+	margin-top: 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.breadcrumb {
+	background: #757575;
+	list-style: none;
+	font-size: 1em;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+ul.breadcrumb li {
+	display: inline-block;
+	color: white;
+}
+
+ul.breadcrumb li + li:before {
+	content: "/";
+	padding-right: 10px;
+}
+
+ul.breadcrumb li a {
+	text-decoration: none;
+	color: #FA3B3A;
+	padding: 10px;
+}
+
+
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	text-align: center;
+}
+
+figure {
+	margin: -55px 0px 20px 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+.container {
+	padding: 2em 1.2em;
+}
+
+
+.soundcloud-container {
+	padding-bottom: 2em;
+
+	
+}
+
+.soundcloud {
+	width: 100%;
+}
+
+
+
+.logo {
+	width: 70px;
+	margin-top: -5px;
+}
+
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: -6px;
+}
+
+
+
+.opdracht-playground img {
+	width: 100%;
+}
+
+
+footer .footer-container .container .footer-links {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	font-size: .9em;
+}
+
+footer .footer-container .container {
+	text-align: center;
+}
+
+footer .footer-container .container .footer-links li {
+	margin: 3px;
+}
+
+.hide-mobile {
+	display: none;
+	
+}
+
+.menu {
+	width: 30px;
+	margin-top: 0%;
+}
+.graphic {
+	width: 55%;
+	horizontal-align: middle;
+	margin: 30px;
+}
+
+.id {
+	width: 100%;
+}
+
+.mijn-werk {
+	color: black;
+}
+
+nav ul {
+	position: fixed;
+	width: 50%;
+	top: 0;
+	right: 0;
+	text-align: left;
+	background: rgba(130,130,130,.95);
+	height: 100%;
+	z-index: 7;
+	padding-top: 3em;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 1em 2em;
+	background-color: rgba(97,97,97,0.30);
+}
+
+nav ul li a:hover {
+	background-color: rgba(87,87,87,0.70);
+}
+
+.exit-btn {
+	margin-bottom: 1em;
+	margin-top: -1.9em;
+	text-align: right;
+	padding: 0 1.0em;
+}
+
+.exit-btn img {
+	width: 15px;
+	cursor: pointer;
+}
+
+.tiemen {
+	margin-top: -6em;
+}
+
+.alle-cases {
+	width: 100%;
+}
+
+.mijn-werk img {
+	width: 100%;
+}
+
+.grafische-opdrachten-container img {
+		width: 100%;
+		filter: brightness(90%);
+	transition: .2s;
+	height: 100px;
+	object-fit: cover;
+}
+
+.grafische-opdrachten-container img:hover {
+		filter: brightness(100%);
+}
+
+
+.grafische-opdrachten-preview-link img {
+		width: 100%;
+		filter: brightness(90%);
+	transition: .2s;
+	margin-top: -40px;
+	object-fit: cover;
+}
+
+.grafische-opdrachten-preview-link img:hover {
+		filter: brightness(100%);
+}
+
+.uitleg-playground {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	
+}
+
+.opdracht {
+	text-align: center;
+}
+
+.opdracht-afbeelding {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+
+.uitleg-dtc {
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	position: relative;
+}
+
+
+
+
+
+
+.dtc {
+	width: 100%;
+	margin-top: -40px;
+}
+
+.de {
+	width: 100%;
+	margin-top: 0px;
+}
+
+
+
+
+
+	.grafische-opdrachten li {
+		width: 100%;
+			flex: 0 30%;
+		margin: 10px 0 0 10px;
+		display: inline-block;
+		flex-grow: 1;
+	}
+	
+
+	
+	.meer-opdrachten {
+		margin-left: 10px;
+	}
+	
+
+	
+	.grafische-opdrachten {
+		margin: -10px 0 0 -10px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+
+
+
+
+
+@keyframes move {
+		
+		from {
+			transform: translateY(0px);
+		}
+		
+		to {
+			transform: translateY(20px);
+		}
+	}
+
+
+
+@media only screen and (min-width: 460px) {
+	
+	.grafische-opdrachten-container img {
+	height: 145px;
+		
+	}
+	
+	
+	
+}
+
+@media only screen and (min-width: 875px) {
+	
+	.subhead {
+		margin-bottom: 15%;
+		
+	}
+	
+	
+	
+}
+
+
+@media only screen and (min-width: 650px) {
+			
+
+	
+	
+	
+	.soundcloud-container {
+	padding-bottom: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -10px 0 0 -10px;
+
+	
+}
+
+.soundcloud {
+	width: 100%;
+	flex: 0 45%;
+	flex-grow: 1;
+	margin: 10px 0 0 10px;
+}
+	
+	
+	
+	.grafische-opdrachten li {
+		width: 100%;
+			flex: 0 30%;
+		margin: 10px 0 0 10px;
+		display: inline-block;
+		flex-grow: 1;
+	}
+	
+
+	
+	.meer-opdrachten {
+		margin-left: 10px;
+	}
+	
+	.grafische-opdrachten {
+		margin: -10px 0 0 -10px;
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+	
+	
+	.tiemen {
+		margin-top: -6em;
+	}
+	
+	h1 {
+		font-size: 5em;
+		padding-top: -30px;
+	}
+	
+	p {
+		font-size: 1em;
+	}
+	
+	blockquote {
+		font-size: 1.6em;
+		padding-top: -2em;
+	}
+	
+
+	figure {
+	margin: -100px 0px 50px 50px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+	
+	.subhead {
+		font-size: 1.1em;
+		margin-bottom: 12%;
+	
+	}
+	
+	footer .footer-container .container .footer-links li {
+	margin: 1px;
+	width: 70%;
+}
+	
+	.playground-blok {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+
+.beschrijving-playground {
+	width: 50%;
+}
+
+.opdracht-playground {
+	width: 50%;
+	margin-left: 10px;
+}
+
+.opdracht-playground img {
+	width: 100%;
+}
+	
+	.grafische-opdrachten-container img {
+	height: 160px;
+}
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+	
+	.logo {
+	margin-top: -10px;
+	margin-left: -25px;
+	}
+	
+	.container {
+	width: 80%;
+	margin: 0 auto;
+	}
+
+	.show-desktop {
+	display: block;
+	margin: 0px auto 5% auto;
+	}
+	
+	.hide-desktop {
+	display: none;
+	}
+	
+	nav ul {
+		position: inherit;
+		width: auto;
+		background: none;
+		height: auto;
+		display: flex;
+		padding-top: 0;
+	}
+	
+	nav ul li {
+		float: left;
+	}
+	
+	nav ul li a {
+		color: black;
+		background-color: inherit;
+		text-align: right;
+		padding: 0em 3em 0em 0em;
+		margin: 0em 0em 0em 0em;
+	}
+	
+	nav ul li a:hover {
+		background-color: inherit;
+	}
+	
+	.scroll {
+		animation: move 1s infinite alternate;
+	}
+	
+	footer .footer-container .container .footer-links  {
+		width: 61%;
+	}
+	
+	.graphic {
+		width: 40%;
+	}
+	
+	.grafische-opdrachten li {
+		width: 100%;
+		flex: 0 20%;
+		margin: 10px 0 0 10px;
+		display: inline-block;
+		flex-grow: 1;
+	}
+	
+	.grafische-opdrachten {
+		margin: -10px 0 0 -10px;
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+
+	
+	
+}
+
+

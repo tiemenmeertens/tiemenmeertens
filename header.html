@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+		</head>
+<body>
+			<header>
+			<img src="images/logo-grijs.svg" alt="tmlogo" class="logo">
+
+			<nav>
+				<a href="#" class="hide-desktop">
+					<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+				</a>
+				
+				<ul class="show-desktop hide-mobile" id="nav">
+					<li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu" class="exit-menu"></li>
+						
+
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="mijn-werk.html">Mijn werk</a></li>
+					<li><a href="fotografie.html">Fotografie</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+				</header>
+	
+		<script>
+	
+		var menu = document.getElementById('menu');
+		var nav = document.getElementById('nav');
+		var exit = document.getElementById('exit');
+	
+		menu.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+		exit.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+	</script>
+</body>
+</html>

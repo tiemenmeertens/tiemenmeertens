@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Tiemen Meertens</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+	
+	<div class="container">
+		<header>
+
+			<div id="header" class="header"></div>
+			
+		</header>
+		
+		<ul class="breadcrumb">
+			<li><a href="Index.html">Home</a></li>
+			<li>Contact</li>
+		</ul>
+		
+		<br><br>
+		
+		<h1>Contact</h1>
+		
+		<div>
+				<figure>
+					<a href="#">
+						<blockquote>Kan ik iets voor je betekenen?
+						</blockquote>
+					</a>
+				</figure>
+			</div>
+		
+				
+<img src="images/tiemen-meertens.png" alt="profile picture" class="profile"><br><br>
+			
+		
+		<h2>tiemenmeertens@gmail.com</h2>
+
+		
+		
+	</div>
+	
+	<footer>
+
+
+
+<div id="footer" class="footer"></div>
+		
+		
+		
+		
+		
+	</footer>
+
+	
+	
+	
+	
+	
+		<script>
+	
+		var menu = document.getElementById('menu');
+		var nav = document.getElementById('nav');
+		var exit = document.getElementById('exit');
+	
+		menu.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+		exit.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+	</script>
+	
+				<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+ $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+	
+	
+	
+	
+	
+	
+</body>
+</html>
