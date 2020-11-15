@@ -1,257 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Portfolio Tiemen Meertens</title>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
 </head>
-
 <body>
-	
-	<div class="container">
-		<header>
-			<img src="images/logo-grijs.svg" alt="tmlogo" class="logo">
 
-			<nav>
-				<a href="#" class="hide-desktop">
-					<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
-				</a>
-				
-				<ul class="show-desktop hide-mobile" id="nav">
-					<li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu" class="exit-menu"></li>
-						
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-					<li><a href="#">Home</a></li>
-					<li><a href="mijn-werk.html">Mijn werk</a></li>
-					<li><a href="fotografie.html">Fotografie</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<br><br><br><br>
-		<section>
-		<img src="images/logo-graphic.svg" alt="logo graphic" class="graphic">
-			<div class="tiemen"><h1>Tiemen Meertens</h1></div>
-			<p class="subhead">Grafisch vormgever/UX designer</p>
-			<img src="images/scroll.png" alt="scroll down" class="scroll show-desktop hide-mobile">
-			
-			
-		</section>
-		
-	</div>
-	
-	<div class="id">
-		<div class="container">
-			<h1>ID</h1>
-			<img src="images/tiemen-meertens.png" alt="profile picture" class="profile">
-			<div>
-				<p class="standaard">Naam: Tiemen Meertens<br>
-Interesses: Graphic/UX Design en Communicatie<br>
-Hobbies: dj’en fotograferen<br>
-Sport: hardlopen<br>
-Woonplaats: Arnhem
-				</p>
-			</div>
-			<div>
-				<p class="standaard">Nieuwsgierig in nieuwe ontwikkelingen in UX Design en altijd op zoek naar vernieuwende designoplossingen.</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="mijn-werk">
-		<div class="container">
-			<h1>MIJN WERK</h1>
-			
-			 
-			
-			<div>
-				<figure>
-					<div class="scroller" data-rateY="-.02" data-direction="horizontal" data-rateX=".01">
-					<blockquote>User-centered design means understanding what your users need, how they think, and how they behave - and incorporating that understanding into every aspect of your process.
-						</blockquote></div>
-					
-					<figcaption>
-						- Jesse James Garrett
-					</figcaption>
-				</figure>
-			</div>
-			
-						<div class="uitleg-playground">
-				<p>Mijn opdrachten binnen mijn vakgebied als grafisch vormgever/UX designer.</p>
-				</div>
-			<br>
-			
-			<div class="grafische-opdrachten-container">
-				<ul class="grafische-opdrachten">
-					<li>
-						<a href="OTM.html">
-						<img src="images/dtc.jpg" alt="dtc">
-						<p class="portfolio-titles">Afstudeeropdracht: herbenken OTM</p>
-						</a>
-					</li>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-					<li>
-						<a href="logopedie-boxmeer.html">
-						<img src="images/logopedie-praktijk-groen.jpg" alt="logopedie-boxmeer">
-						<p class="portfolio-titles">(Pre)Logopedie Boxmeer</p>
-						</a>
-					</li>
-					<li>
-						<a href="kwik.html">
-							<img src="images/webbio.jpg" alt="webbio">
-							<p class="portfolio-titles">Playground: Webbio Motion Graphic Kwik</p>
-						</a>
-					</li>
-					<li>
-						<a href="mijn-werk.html">
-							<p class="meer-opdrachten">Meer opdrachten</p>
-						</a>
-					</li>
+<div style="padding-left:16px">
+  <h3>Vertical Mobile Navbar</h3>
+  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+</div>
 
+<!-- End smartphone / tablet look -->
+</div>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-	
-	<div class="playground">
-		<div class="container">
-			<h1>PLAYGROUND</h1>
-			
-		
-			  
-			<div>
-				<figure>
-					
-					            <div class="scroller" data-rateY="-.05" data-direction="horizontal" data-rateX=".01"> 
-					<blockquote>You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in the future.
-					</blockquote></div> 
-					<figcaption>
-						- Steve Jobs
-					</figcaption>
-				</figure>
-			</div>
-			<div class="uitleg-playground">
-				<p>De plek voor kunstprojecten en hobby's binnen en buiten mijn vakgebied.</p>
-				</div>
-			<br>
-			
-			<h2>Muziek</h2>
-			<div class="soundcloud-container">
-			<iframe class="soundcloud" height="240" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/443898183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-			
-			<iframe class="soundcloud" height="240" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/301364276&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-			</div>
-			<h2>Fotografie</h2>
-			
-			
-						<div class="grafische-opdrachten-container">
-				<ul class="grafische-opdrachten">
-					<li>
-						<a href="fotografie.html#muziekfotografie">
-						<img src="images/_MG_1374.jpg" alt="dtc">
-						<p class="portfolio-titles">Muziekfotografie</p>
-						</a>
-					</li>
-
-					<li>
-						<a href="fotografie.html#experimentele-fotografie">
-						<img src="images/IMG_6250.jpg" alt="logopedie-boxmeer">
-						<p class="portfolio-titles">Experimentele fotografie</p>
-						</a>
-					</li>
-				</ul>
-			</div>
-			
-			
-		</div>
-	</div>
-	
-	<div class="contact">
-		<div class="container">
-			<h1>CONTACT</h1>
-			
-			 
-			
-			<div>
-				<figure>
-					<a href="tiemenmeertens@gmail.com">
-						<blockquote>Kan ik iets voor je betekenen?
-						</blockquote>
-					</a>
-				</figure>
-			</div>
-			<p>tiemenmeertens@gmail.com</p>
-		</div>
-	</div>
-	
-	<footer>
-	<div class="footer-container">
-		<div class="container">
-			<a href="#">
-			   <img src="images/tmlogo.png" class="logo" alt="logo">
-			</a>
-			<p class="policy">© 2020 Tiemen Meertens</p>
-			<ul class="footer-links">
-					<li><a href="mijn-werk.html">Mijn werk</a></li>
-					<li><a href="fotografie.html">Fotografie</a></li>
-					<li><a href="#">Contact</a></li>
-			</ul>
-		</div>	
-	</div>
-	</footer>
-	
-	<script>
-	
-		var menu = document.getElementById('menu');
-		var nav = document.getElementById('nav');
-		var exit = document.getElementById('exit');
-	
-		menu.addEventListener('click', function(e) {
-			nav.classList.toggle('hide-mobile');	
-			e.preventDefault();
-		});
-		
-		exit.addEventListener('click', function(e) {
-			nav.classList.toggle('hide-mobile');	
-			e.preventDefault();
-		});
-		
-	</script>
-	
-		<script>
-	
-		        window.addEventListener('scroll', function(e) {
-
-            const target = document.querySelectorAll('.scroller');
-
-            var index = 0, length = target.length;
-            for (index; index < length; index++) {
-                var pos = window.pageYOffset * target[index].dataset.rate;
-
-                if(target[index].dataset.direction === 'vertical') {
-                    target[index].style.transform = 'translate3d(0px,'+pos+'px, 0px)';
-                } else {
-                    var posX = window.pageYOffset * target[index].dataset.ratex;
-                    var posY = window.pageYOffset * target[index].dataset.ratey;
-                    
-                    target[index].style.transform = 'translate3d('+posX+'px, '+posY+'px, 0px)';
-                }
-            }
-
-
-        });
-			
-			
-			
-			
-	
-	
-	</script>
-	
 </body>
 </html>
