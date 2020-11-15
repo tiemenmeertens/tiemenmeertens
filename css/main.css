@@ -168,7 +168,7 @@ footer .footer-container .container .footer-links li {
 }
 
 nav ul {
-	position: fixed;
+	position: absolute;
 	width: 50%;
 	top: 0;
 	right: 0;
