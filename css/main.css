@@ -114,6 +114,7 @@ figure {
 
 header {
 	display: flex;
+	flex: 1;
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
