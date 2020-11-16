@@ -13,8 +13,8 @@ body {
 }
 
 .logo {
-	height: 80px;
-	width: auto;
+	height: auto;
+	width: 80px;
 	}
 
 p, blockquote {
