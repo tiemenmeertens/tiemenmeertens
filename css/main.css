@@ -218,7 +218,7 @@ nav ul li a:hover {
 		width: 100%;
 		filter: brightness(90%);
 	transition: .2s;
-	height: 80px;
+	height: 100px;
 	object-fit: cover;
 }
 
@@ -373,7 +373,7 @@ nav ul li a:hover {
 	
 	.grafische-opdrachten li {
 		width: 100%;
-			flex: 0 29%;
+			flex: 0 30%;
 		margin: 10px 0 0 10px;
 		display: inline-block;
 		flex-grow: 1;
