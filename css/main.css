@@ -12,6 +12,11 @@ body {
 	width: 100%;
 }
 
+.logo {
+	width: auto;
+	height: 40px;
+	}
+
 p, blockquote {
 	font-size: .8em;
 	line-height: 1.6em;
@@ -454,6 +459,8 @@ nav ul li a:hover {
 @media only screen and (min-width: 1024px) {
 	
 	.logo {
+		width: auto;
+		height: 40px;
 	margin-top: -10px;
 	margin-left: -5px;
 	}
