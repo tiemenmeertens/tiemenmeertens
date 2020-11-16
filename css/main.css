@@ -105,8 +105,10 @@ figure {
 
 
 .logo {
-	width: 2%;
+	width: auto;
+	max-with: 80%;
 	margin-top: -5px;
+	height: auto;
 }
 
 
