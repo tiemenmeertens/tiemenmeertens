@@ -142,10 +142,7 @@ footer .footer-container .container .footer-links li {
 	margin: 3px;
 }
 
-.hide-mobile {
-	display: none;
-	
-}
+
 
 .menu {
 	width: 30px;
@@ -473,9 +470,7 @@ nav ul li a:hover {
 	margin: 0px auto 5% auto;
 	}
 	
-	.hide-desktop {
-	display: none;
-	}
+
 	
 	nav ul {
 		position: inherit;
