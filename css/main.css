@@ -108,13 +108,14 @@ figure {
 .logo {
 	width: 70px;
 	margin-top: -5px;
+	position: absolute;
 }
 
 
 
 header {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
 	margin-top: -6px;
 }
