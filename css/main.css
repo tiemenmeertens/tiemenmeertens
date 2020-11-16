@@ -459,7 +459,7 @@ nav ul li a:hover {
 @media only screen and (min-width: 1024px) {
 	
 	.logo {
-		height: 80px;
+	height: 80px;
 	margin-top: -10px;
 	margin-left: -5px;
 	}
