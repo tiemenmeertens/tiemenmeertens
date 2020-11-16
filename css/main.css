@@ -107,7 +107,7 @@ figure {
 
 .logo {
 	width: 70px;
-	margin-top: -40px;
+	margin-top: -5px;
 }
 
 
@@ -115,7 +115,6 @@ figure {
 header {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
 	margin-top: -6px;
 }
 
@@ -142,11 +141,11 @@ footer .footer-container .container .footer-links li {
 	margin: 3px;
 }
 
-/*.hide-mobile {
+.hide-mobile {
 	display: none;
 	
 }
-*/
+
 
 .menu {
 	width: 30px;
@@ -474,10 +473,10 @@ nav ul li a:hover {
 	margin: 0px auto 5% auto;
 	}
 	
-	/*.hide-desktop {
+	.hide-desktop {
 	display: none;
 	}
-	*/
+	
 	nav ul {
 		position: inherit;
 		width: auto;
