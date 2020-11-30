@@ -151,7 +151,7 @@ body {
 
 .container .box:hover .voorgrond
 {	
-transform: translate3d(-50%,-50%,110px) rotate(-15deg);
+transform: translate3d(-50%,-50%,130px) rotate(-15deg);
 	}
 
 .container .box:hover .achtergrond
