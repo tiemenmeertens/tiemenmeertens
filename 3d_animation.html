@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Portfolio Tiemen Meertens</title>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="main3d.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -42,25 +42,33 @@
 			
 		</section>
 		
-	</div>
-	
-	<div class="id">
-		<div class="container">
-			<h1>ID</h1>
-			<img src="images/tiemen-meertens.png" alt="profile picture" class="profile">
-			<div>
-				<p class="standaard">Naam: Tiemen Meertens<br>
-Interesses: Graphic/UX Design en Communicatie<br>
-Hobbies: dj’en fotograferen<br>
-Sport: hardlopen<br>
-Woonplaats: Arnhem
-				</p>
+		
+		<div class="containertje">
+			<div class="box">
+				<h2 class="name">Product Name</h2>
+				<a href="#" class="buy">Buy now</a>
+				<div class="circle"></div>
+				<img src="images/adidas.png" alt="adidas sneaker" class="product">
 			</div>
-			<div>
-				<p class="standaard">Nieuwsgierig in nieuwe ontwikkelingen in UX Design en altijd op zoek naar vernieuwende designoplossingen.</p>
+			<div class="box">
+				<h2 class="name">Product Name</h2>
+				<a href="#" class="buy">Buy now</a>
+				<div class="circle"></div>
+				<img src="images/adidas.png" alt="adidas sneaker" class="product">
+			</div>
+			<div class="box">
+				<h2 class="name">Product Name</h2>
+				<a href="#" class="buy">Buy now</a>
+				<div class="circle"></div>
+				<img src="images/adidas.png" alt="adidas sneaker" class="product">
 			</div>
 		</div>
+		
+		
+		
 	</div>
+	
+
 	
 
 	
@@ -108,9 +116,12 @@ Woonplaats: Arnhem
 
 	</script>
 	
-		<script>
-
-	
+		<script src="vanilla-tilt.min.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
 	</script>
 	
 </body>
