@@ -151,12 +151,12 @@ body {
 
 .container .box:hover .voorgrond
 {	
-transform: translate3d(-50%,-50%,130px) rotate(-15deg);
+transform: translate3d(-50%,-50%,130px) rotate(0deg);
 	}
 
 .container .box:hover .achtergrond
 {	
-transform: translate3d(-50%,-50%,100px) rotate(-15deg);
+transform: translate3d(-50%,-50%,100px) rotate(-1deg);
 	}
 	
 .container .box:nth-child(1) .circle,
