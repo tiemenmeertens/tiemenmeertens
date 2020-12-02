@@ -395,7 +395,7 @@ nav ul li a:hover {
 
 .grafische-opdrachten-container img:hover {
 		filter: brightness(100%);
-	transform: translate3d(0%,0%,130px) scale(1.2) rotate(-0);
+	transform: translate3d(0%,0%,130px) scale(1.05) rotate(-0);
 }
 
 
