@@ -45,11 +45,11 @@ body {
 
 .bewegende-container .box::before
 {
-	content: 'ADIDAS';
+	content: 'ONLINE';
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	left: 20px;
-	font-size: 4em;
+	font-size: 1em;
 	font-weight: 900;
 	color: #fff;
 	font-style: italic;
@@ -58,11 +58,11 @@ body {
 
 .bewegende-container .box::after
 {
-	content: 'SHOES';
+	content: 'TAXATIE MODULE';
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	right: 20px;
-	font-size: 4em;
+	font-size: 1em;
 	font-weight: 900;
 	color: #fff;
 	font-style: italic;
@@ -73,18 +73,18 @@ body {
 .bewegende-container .box:hover::before,
 .bewegende-container .box:hover::after
 {
-	opacity: 0.04;
+	opacity: 0.3;
 }
 
 .bewegende-container .box .name{
 	position: absolute;
-	top: 0;
+	top: 40px;
 	left: 0;
 	text-align: center;
-	color: #fff;
+	color: #404040;
 	width: 100%;
 	transform-style: preserve-3d;
-	transform: translate3d(0,0,170px);
+	transform: translate3d(0,0,150px);
 	transition: 0.5s;
 	opacity: 0;
 	z-index: 10;
@@ -92,8 +92,9 @@ body {
 
 .bewegende-container .box:hover .name
 {
-	top: 40px;
+	top: 20px;
 	opacity: 1;
+	backdrop-filter: blur(10px);
 }
 
 .bewegende-container .box .buy
@@ -124,8 +125,8 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
 	border-radius: 50%;
 	transition: 0.5s;
 	background: #fff;
@@ -156,7 +157,7 @@ body {
 	z-index: 12;
 	transition: 0.5s;
 	transform-style: preserve-3d;
-	transform: translate3d(-50%,-50%,60px) rotate(0deg);
+	transform: translate3d(-50%,-50%,60px) rotate(30deg);
 }
 	
 .bewegende-container .box .achtergrond
@@ -172,28 +173,27 @@ body {
 }
 
 .bewegende-container .box:hover
-{	
-border-radius: 50%;
-height: 300px;
+{
+border-radius: 20px;
 }
 	
 
 .bewegende-container .box:hover .voorgrond
 {	
 transform: translate3d(-50%,-50%,160px) rotate(0deg);
-	border-radius: 200px;
+	border-radius: 50px;
 	}
 
 .bewegende-container .box:hover .midden
 {	
-transform: translate3d(-50%,-50%,130px) rotate(0deg);
-	border-radius: 200px;
+transform: translate3d(-35%,-50%,130px) rotate(0deg);
+	border-radius: 0px;
 	}
 
 .bewegende-container .box:hover .achtergrond
 {	
-transform: translate3d(-50%,-50%,100px) rotate(-1deg);
-	border-radius: 200px;
+transform: translate3d(-60%,-50%,100px) rotate(-1deg);
+	border-radius: 0;
 	}
 	
 .bewegende-container .box:nth-child(1)
