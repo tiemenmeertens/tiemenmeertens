@@ -33,8 +33,8 @@ body {
 {
 	position: relative;
 	width: 100%;
-	height: 250px;
-	margin: 10px;
+	height: 275px;
+	margin: 15px;
 	background: #24A596;
 	border-radius: 20px;
 	transform-style: preserve-3d;
@@ -127,6 +127,61 @@ body {
 	opacity: 0;
 	transition: 0.5s;
 }
+
+.fotografie .box:nth-child(1)::before
+{
+	content: 'FESTIVALS';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.fotografie .box:nth-child(1)::after
+{
+	content: 'CLUBS';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.fotografie .box:nth-child(2)::before
+{
+	content: 'DOUBLE EXPOSURE';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.fotografie .box:nth-child(2)::after
+{
+	content: 'PHOTOSHOP';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
 
 
 
@@ -275,6 +330,107 @@ body {
 	transform: translate3d(-50%,-50%,50px) rotate(0deg);
 }
 
+.bewegende-container .box .voorgrond-muziekfotografie
+{
+	position: absolute;
+	object-fit:cover;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+}
+	
+.bewegende-container .box .midden-muziekfotografie
+{
+	position: absolute;
+	object-fit:cover;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.bewegende-container .box .achtergrond-muziekfotografie
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+}
+
+.bewegende-container .box .experimentele-fotografie1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 14;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie3
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
 
 
 
@@ -334,6 +490,49 @@ transform: translate3d(-50%,-50%,100px) rotate(-0deg);
 	border-radius: 0;
 	}
 
+.bewegende-container .box:hover .voorgrond-muziekfotografie
+{	
+transform: translate3d(-50%,-50%,115px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .midden-muziekfotografie
+{	
+transform: translate3d(-50%,-50%,75px) rotate(-0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .achtergrond-muziekfotografie
+{	
+transform: translate3d(-50%,-50%,0px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie1
+{	
+transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie2
+{	
+transform: translate3d(-50%,-50%,75px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie3
+{	
+transform: translate3d(-50%,-50%,100px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie4
+{	
+transform: translate3d(-50%,-50%,125px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+
 	
 .bewegende-container .box:nth-child(1)
 {
@@ -366,6 +565,14 @@ transform: translate3d(-50%,-50%,100px) rotate(-0deg);
 {
 	background-color: #0B3C80;
 }
+
+.kaart-achtergrond {
+	object-fit:cover;
+	width:100%;
+	height:100%;
+	border-radius: 20px;
+}
+
 
 
 
