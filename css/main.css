@@ -17,6 +17,559 @@ body {
 	width: 80px;
 	}
 
+.bewegende-container {
+	padding: 2em 1.2em;
+	transform-style: preserve-3d;
+	justify-content: space-between;
+	display: flex;
+}
+
+
+.bewegende-container .box
+{
+	position: relative;
+	width: 100%;
+	height: 275px;
+	margin: 15px;
+	background: #24A596;
+	border-radius: 20px;
+	transform-style: preserve-3d;
+	flex-wrap: wrap;
+	flex: 0 100%;
+	display: inline-block;
+	z-index: 9;
+}
+
+
+
+
+.bewegende-container .box:nth-child(1)::before
+{
+	content: 'ONLINE';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.bewegende-container .box:nth-child(1)::after
+{
+	content: 'TAXATIE MODULE';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+.bewegende-container .box:nth-child(2)::before
+{
+	content: 'HUISSTIJL';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.bewegende-container .box:nth-child(2)::after
+{
+	content: 'WEBSITE';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.bewegende-container .box:nth-child(3)::before
+{
+	content: 'MOTION';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.bewegende-container .box:nth-child(3)::after
+{
+	content: 'GRAPHIC';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.fotografie .box:nth-child(1)::before
+{
+	content: 'FESTIVALS';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.fotografie .box:nth-child(1)::after
+{
+	content: 'CLUBS';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.fotografie .box:nth-child(2)::before
+{
+	content: 'DOUBLE EXPOSURE';
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+}
+
+.fotografie .box:nth-child(2)::after
+{
+	content: 'PHOTOSHOP';
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 1em;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+
+
+.bewegende-container .box:hover::before,
+.bewegende-container .box:hover::after
+{
+	opacity: 0.3;
+}
+
+.bewegende-container .box .name{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 40px #000;
+	width: 100%;
+	transform-style: preserve-3d;
+	transform: translate3d(0,0,75px);
+	transition: 0.5s;
+	opacity: 0;
+	z-index: 10;
+}
+
+.bewegende-container .box:hover .name
+{
+	top: 20px;
+	opacity: 1;
+	backdrop-filter: blur(10px);
+}
+
+
+
+
+.bewegende-container .box .circle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	transition: 0.5s;
+	background: #fff;
+	transform-style: preserve-3d;
+	z-index: 10;
+	opacity: 1;
+	transform: translate3d(-50%,-50%,50px);
+}
+
+.bewegende-container .box .voorgrond
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,70px) rotate(0deg);
+}
+
+.bewegende-container .box .midden
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,60px) rotate(30deg);
+}
+	
+.bewegende-container .box .achtergrond
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+}
+
+
+
+.bewegende-container .box .voorgrond-logopedie
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,70px) rotate(0deg);
+}
+
+.bewegende-container .box .midden-logopedie
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,60px) rotate(0deg);
+}
+	
+.bewegende-container .box .achtergrond-logopedie
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+}
+
+.bewegende-container .box .voorgrond-webbio
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,60px) rotate(0deg);
+}
+	
+.bewegende-container .box .achtergrond-webbio
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+}
+
+.bewegende-container .box .voorgrond-muziekfotografie
+{
+	position: absolute;
+	object-fit:cover;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+}
+	
+.bewegende-container .box .midden-muziekfotografie
+{
+	position: absolute;
+	object-fit:cover;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.bewegende-container .box .achtergrond-muziekfotografie
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+}
+
+.bewegende-container .box .experimentele-fotografie1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 14;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie3
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 12;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+
+
+.bewegende-container .box:hover
+{
+border-radius: 20px;
+}
+	
+
+.bewegende-container .box:hover .voorgrond
+{	
+transform: translate3d(-50%,-50%,160px) rotate(0deg);
+	border-radius: 50px;
+	}
+
+.bewegende-container .box:hover .midden
+{	
+transform: translate3d(-35%,-50%,130px) rotate(0deg);
+	border-radius: 0px;
+	}
+
+.bewegende-container .box:hover .achtergrond
+{	
+transform: translate3d(-60%,-50%,100px) rotate(-1deg);
+	border-radius: 0;
+	}
+
+
+
+.bewegende-container .box:hover .voorgrond-logopedie
+{	
+transform: translate3d(-50%,-50%,140px) rotate(0deg);
+	border-radius: 50px;
+	}
+
+.bewegende-container .box:hover .midden-logopedie
+{	
+transform: translate3d(-50%,-50%,120px) rotate(0deg);
+	border-radius: 0px;
+	}
+
+.bewegende-container .box:hover .achtergrond-logopedie
+{	
+transform: translate3d(-50%,-50%,100px) rotate(-0deg);
+	border-radius: 0;
+	}
+
+.bewegende-container .box:hover .voorgrond-webbio
+{	
+transform: translate3d(-50%,-55%,120px) rotate(0deg);
+	border-radius: 50px;
+	}
+
+.bewegende-container .box:hover .achtergrond-webbio
+{	
+transform: translate3d(-50%,-50%,100px) rotate(-0deg);
+	border-radius: 0;
+	}
+
+.bewegende-container .box:hover .voorgrond-muziekfotografie
+{	
+transform: translate3d(-50%,-50%,115px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .midden-muziekfotografie
+{	
+transform: translate3d(-50%,-50%,75px) rotate(-0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .achtergrond-muziekfotografie
+{	
+transform: translate3d(-50%,-50%,0px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie1
+{	
+transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie2
+{	
+transform: translate3d(-50%,-50%,75px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie3
+{	
+transform: translate3d(-50%,-50%,100px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-container .box:hover .experimentele-fotografie4
+{	
+transform: translate3d(-50%,-50%,125px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+
+	
+.bewegende-container .box:nth-child(1)
+{
+	background-color: #29B3AC;
+}
+
+.bewegende-container .box:nth-child(2)
+{
+	background: #4A9C98;
+}
+
+.bewegende-container .box:nth-child(3)
+{
+	background-color: #CC494A;
+}
+
+
+.bewegende-container .box:nth-child(1) .circle
+{
+	background: #A7BB17;
+}
+
+.bewegende-container .box:nth-child(2) .circle
+{
+	background: #FB8501;
+}
+
+.bewegende-container .box:nth-child(3) .circle
+
+{
+	background-color: #0B3C80;
+}
+
+.kaart-achtergrond {
+	object-fit:cover;
+	width:100%;
+	height:100%;
+	border-radius: 20px;
+}
+
 p, blockquote {
 	font-size: .8em;
 	line-height: 1.6em;
