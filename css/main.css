@@ -465,7 +465,7 @@ body {
 	transition: 0.5s;
 	transform-style: preserve-3d;
 	transform: translate3d(-50%,-50%,60px) rotate(0deg);
-	
+	mix-blend-mode: screen;
 	
 }
 
@@ -565,32 +565,32 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg);
 
 .bewegende-container .box:hover .experimentele-fotografie1
 {	
-transform: translate3d(-50%,-50%,50px) rotate(0deg);
+transform: translate3d(-50%,-50%,175px) rotate(0deg);
 	border-radius: 20px;
 	}
 
 .bewegende-container .box:hover .experimentele-fotografie2
 {	
-transform: translate3d(-50%,-50%,75px) rotate(0deg);
+transform: translate3d(-50%,-50%,200px) rotate(0deg);
 	border-radius: 20px;
 	}
 
 .bewegende-container .box:hover .experimentele-fotografie3
 {	
-transform: translate3d(-50%,-50%,100px) rotate(0deg);
+transform: translate3d(-50%,-50%,225px) rotate(0deg);
 	border-radius: 20px;
 	}
 
 .bewegende-container .box:hover .experimentele-fotografie4
 {	
-transform: translate3d(-50%,-50%,125px) rotate(0deg);
+transform: translate3d(-50%,-50%,250px) rotate(0deg);
 	border-radius: 20px;
 	}
 
 
 .bewegende-container .box:hover .ga-naar-opdrachten
 {	
-transform: translate3d(-50%,-50%,160px) rotate(-90deg);
+transform: translate3d(-50%,-50%,230px) rotate(-90deg);
 	}
 
 
@@ -617,6 +617,12 @@ transform: translate3d(-50%,-50%,100px) rotate(0deg);
 	background-color: #CC494A;
 }
 
+.bewegende-container .box:nth-child(4)
+{
+	background-color: #FA4343;
+}
+
+
 
 .bewegende-container .box:nth-child(1) .circle
 {
@@ -633,6 +639,13 @@ transform: translate3d(-50%,-50%,100px) rotate(0deg);
 {
 	background-color: #0B3C80;
 }
+
+.bewegende-container .box:nth-child(4) .circle
+
+{
+	background-color: #fff;
+}
+
 
 .kaart-achtergrond {
 	object-fit:cover;
