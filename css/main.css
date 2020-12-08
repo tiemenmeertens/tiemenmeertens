@@ -596,7 +596,7 @@ transform: translate3d(-50%,-50%,160px) rotate(-90deg);
 
 .bewegende-container .box:hover .meer-opdrachten-macbook
 {	
-transform: translate3d(-50%,-50%,150px) rotate(0deg);
+transform: translate3d(-50%,-50%,100px) rotate(0deg);
 	}
 
 
