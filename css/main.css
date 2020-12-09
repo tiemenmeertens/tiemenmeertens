@@ -626,7 +626,8 @@ transform: translate3d(-50%,-50%,100px) rotate(0deg);
 
 .bewegende-container .box:nth-child(1) .circle
 {
-	background: #A7BB17;
+	background: rgba(255,255,255, 0.2);
+	bacckdrop-filter: blur(40px);
 }
 
 .bewegende-container .box:nth-child(2) .circle
