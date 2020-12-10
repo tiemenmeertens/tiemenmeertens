@@ -482,6 +482,63 @@ body {
 	mix-blend-mode: multiply;
 }
 
+.bewegende-container .box .experimentele-fotografie1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 14;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 13;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie3
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+.bewegende-container .box .experimentele-fotografie4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 100%;
+	z-index: 10;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,50px) rotate(0deg);
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+}
+
+
 .bewegende-container .box .ga-naar-opdrachten
 {
 	position: absolute;
