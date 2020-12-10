@@ -19,12 +19,18 @@ body {
 	}
 
 .bewegende-container {
-	padding: 0em 0em;
+	margin: -20px 0 0 -20px;
 	transform-style: preserve-3d;
 	justify-content: space-between;
 	display: flex;
 }
 
+.bewegende-fotocontainer {
+	padding: 0 0 0 0;
+	transform-style: preserve-3d;
+	justify-content: space-between;
+	display: flex;
+}
 
 .bewegende-container .box
 {
@@ -40,12 +46,12 @@ body {
 	display: inline-block;
 }
 
-.bewegende-container .foto-box
+.bewegende-fotocontainer .foto-box
 {
 	position: relative;
 	width: 100%;
-	height: 275px;
-	margin: 20px 0 0 20px;
+	height: 500px;
+	margin: 0px 0 0 0px;
 	background: #24A596;
 	border-radius: 20px;
 	transform-style: preserve-3d;
@@ -270,7 +276,7 @@ body {
 	transform: translate3d(-50%,-50%,50px);
 }
 
-.bewegende-container .foto-box .voorgrond
+.bewegende-fotocontainer .foto-box .voorgrond
 {
 	position: absolute;
 	top: 50%;
@@ -426,8 +432,12 @@ body {
 	border-radius: 20px;
 }
 
-.bewegende-container .foto-box .experimentele-fotografie1
+.bewegende-fotocontainer .foto-box .experimentele-fotografie1
 {
+	
+	object-fit:cover;
+	width:50%;
+	height:50%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -440,8 +450,12 @@ body {
 	mix-blend-mode: multiply;
 }
 
-.bewegende-container .foto-box .experimentele-fotografie2
+.bewegende-fotocontainer .foto-box .experimentele-fotografie2
 {
+	
+	object-fit:cover;
+	width:50%;
+	height:50%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -454,8 +468,11 @@ body {
 	mix-blend-mode: multiply;
 }
 
-.bewegende-container .foto-box .experimentele-fotografie3
+.bewegende-fotocontainer .foto-box .experimentele-fotografie3
 {
+	object-fit:cover;
+	width:50%;
+	height:50%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -468,8 +485,11 @@ body {
 	mix-blend-mode: multiply;
 }
 
-.bewegende-container .foto-box .experimentele-fotografie4
+.bewegende-fotocontainer .foto-box .experimentele-fotografie4
 {
+	object-fit:cover;
+	width:50%;
+	height:50%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -666,6 +686,30 @@ transform: translate3d(-50%,-50%,225px) rotate(0deg);
 	}
 
 .bewegende-container .box:hover .experimentele-fotografie4
+{	
+transform: translate3d(-50%,-50%,250px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-fotocontainer .foto-box:hover .experimentele-fotografie1
+{	
+transform: translate3d(-50%,-50%,175px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-fotocontainer .foto-box:hover .experimentele-fotografie2
+{	
+transform: translate3d(-50%,-50%,200px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-fotocontainer .foto-box:hover .experimentele-fotografie3
+{	
+transform: translate3d(-50%,-50%,225px) rotate(0deg);
+	border-radius: 20px;
+	}
+
+.bewegende-fotocontainer .foto-box:hover .experimentele-fotografie4
 {	
 transform: translate3d(-50%,-50%,250px) rotate(0deg);
 	border-radius: 20px;
