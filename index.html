@@ -1,265 +1,332 @@
 <!doctype html>
-<html lang="nl">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Tiemen Leert Praten</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #fff;
-      color: #1a1a1a;
-      line-height: 1.7;
-    }
-
-    .container {
-      max-width: 680px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    /* Nav */
-    nav {
-      padding: 28px 0;
-      border-bottom: 1px solid #e8e8e8;
-      margin-bottom: 72px;
-    }
-    nav .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav-brand {
-      font-family: 'Inter', sans-serif;
-      font-weight: 500;
-      font-size: 15px;
-      letter-spacing: .02em;
-      color: #1a1a1a;
-      text-decoration: none;
-    }
-    .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 32px;
-    }
-    .nav-links a {
-      font-size: 14px;
-      color: #666;
-      text-decoration: none;
-      letter-spacing: .02em;
-    }
-    .nav-links a:hover { color: #1a1a1a; }
-
-    /* Chapter label */
-    .chapter-label {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: #c04a1a;
-      margin-bottom: 20px;
-    }
-
-    /* Hero */
-    .hero {
-      margin-bottom: 80px;
-    }
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      font-size: clamp(40px, 7vw, 56px);
-      line-height: 1.1;
-      margin-bottom: 28px;
-      color: #1a1a1a;
-    }
-    .hero hr {
-      border: none;
-      border-top: 1px solid #e0e0e0;
-      margin-bottom: 40px;
-    }
-
-    /* Quote */
-    .quote-block {
-      border-left: 3px solid #c04a1a;
-      padding: 4px 0 4px 24px;
-      margin-bottom: 40px;
-    }
-    .quote-block blockquote {
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      font-size: clamp(17px, 2.5vw, 20px);
-      line-height: 1.6;
-      color: #2a2a2a;
-      margin-bottom: 12px;
-    }
-    .quote-block cite {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: #999;
-      font-style: normal;
-    }
-
-    /* Body text */
-    .body-text p {
-      font-size: 16px;
-      color: #3a3a3a;
-      margin-bottom: 20px;
-    }
-    .body-text strong { color: #1a1a1a; font-weight: 600; }
-    .body-text em { font-style: italic; }
-
-    /* Section divider */
-    .section-divider {
-      border: none;
-      border-top: 1px solid #e0e0e0;
-      margin: 56px 0 48px;
-    }
-
-    /* Principles */
-    .principles-heading {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      font-size: 26px;
-      margin-bottom: 32px;
-      color: #1a1a1a;
-    }
-    .principles-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      margin-bottom: 80px;
-    }
-    @media (max-width: 520px) {
-      .principles-grid { grid-template-columns: 1fr; }
-    }
-    .principle-card {
-      border: 1px solid #e0e0e0;
-      padding: 28px 24px;
-      position: relative;
-    }
-    .principle-card .number {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      font-style: italic;
-      color: #e8e8e8;
-      line-height: 1;
-      user-select: none;
-    }
-    .principle-card .label {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: #c04a1a;
-      margin-bottom: 14px;
-    }
-    .principle-card p {
-      font-size: 14px;
-      color: #555;
-      line-height: 1.65;
-      padding-right: 24px;
-    }
-
-    /* Third principle (full width) */
-    .principle-card.full {
-      grid-column: 1 / -1;
-    }
-
-    /* Footer */
-    footer {
-      border-top: 1px solid #e8e8e8;
-      padding: 32px 0;
-    }
-    footer .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    footer p {
-      font-size: 13px;
-      color: #aaa;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Portfolio Tiemen Meertens</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
+	
+	<div class="container">
+		<header>
+			<a href="/index.html"><img src="images/logo-grijs.svg" alt="tmlogo" style="height: 45px; margin-top:-10px">
+			</a>
+			<nav>
+				<a href="#" class="hide-desktop">
+				<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+				</a>
+				
+				<ul class="show-desktop hide-mobile" id="nav">
+					<li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu" class="exit-menu"></li>
+					
+					<li><a href="mijn-werk.html">Mijn werk</a></li>
+					<li><a href="fotografie.html">Fotografie</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<br><br><br><br>
+		<section>
+		<img src="images/logo-graphic.svg" alt="logo graphic" class="graphic">
+			<div class="tiemen"><h1>Tiemen Meertens</h1></div>
+			<p class="subhead">Grafisch vormgever/UX designer</p>
+			<img src="images/scroll.png" alt="scroll down" class="scroll show-desktop hide-mobile">
+			
+			
+		</section>
+		
+	</div>
+	
+	<div class="id">
+		<div class="container">
+			<h1>ID</h1>
+			<img src="images/tiemen-meertens.png" alt="profile picture" class="profile">
+			<div>
+				<p class="standaard">Naam: Tiemen Meertens<br>
+Interesses: Graphic/UX Design en Communicatie<br>
+Hobbies: dj’en fotograferen<br>
+Sport: hardlopen<br>
+Woonplaats: Arnhem
+				</p>
+			</div>
+			<div>
+				<p class="standaard">Nieuwsgierig in nieuwe ontwikkelingen in UX Design en altijd op zoek naar vernieuwende designoplossingen.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mijn-werk">
+		<div class="container">
+			<h1>MIJN WERK</h1>
+			
+			 
+			
+			<div>
+				<figure>
+					<div class="scroller" data-rateY="-.02" data-direction="horizontal" data-rateX=".01">
+					<blockquote>User-centered design means understanding what your users need, how they think, and how they behave - and incorporating that understanding into every aspect of your process.
+						</blockquote></div>
+					
+					<figcaption>
+						- Jesse James Garrett
+					</figcaption>
+				</figure>
+			</div>
+			
+						<div class="uitleg-playground">
+				<p>Mijn opdrachten binnen mijn vakgebied als grafisch vormgever/UX designer.</p>
+				</div>
+			<br>
+			<div class="hide-desktop">
+			<div class="grafische-opdrachten-container">
+				<ul class="grafische-opdrachten">
+					<li>
+						<a href="OTM.html">
+						<img src="images/dtc.jpg" alt="DTC Online Taxatie Module">
+						<p class="portfolio-titles">Afstudeeropdracht: herbenken OTM</p>
+						</a>
+					</li>
 
-  <nav>
-    <div class="container">
-      <a class="nav-brand" href="/">Tiemen Leert Praten</a>
-      <ul class="nav-links">
-        <li><a href="#visie">De visie</a></li>
-        <li><a href="#principes">Principes</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+					<li>
+						<a href="logopedie-boxmeer.html">
+						<img src="images/logopedie-praktijk-groen.jpg" alt="Logopedie Boxmeer">
+						<p class="portfolio-titles">(Pre)Logopedie Boxmeer</p>
+						</a>
+					</li>
+					<li>
+						<a href="kwik.html">
+							<img src="images/webbio.jpg" alt="Webbio Motion Graphic">
+							<p class="portfolio-titles">Webbio Motion Graphic Kwik</p>
+						</a>
+					</li>
+					<li>
+						<a href="mijn-werk.html">
+							<p class="meer-opdrachten">Meer opdrachten</p>
+						</a>
+					</li>
 
-  <main>
-    <div class="container">
 
-      <section class="hero" id="visie">
-        <p class="chapter-label">Hoofdstuk 01</p>
-        <h1>De Visie</h1>
-        <hr>
 
-        <div class="quote-block">
-          <blockquote>
-            "De meest intuïtieve tools vereisen geen handleiding. Ze voelen vanzelfsprekend aan&nbsp;— alsof ze al bestonden voordat je ze zag."
-          </blockquote>
-          <cite>Ontwerpfilosofie &mdash; Tiemen Leert Praten</cite>
-        </div>
+				</ul>
+			</div>
+			</div>
+			
+			
+				<div class="show-desktop hide-mobile">
+		<div class="bewegende-container">
+			
+			<a href="OTM.html" class="box">
+				
+				<h2 class="name">DTC Media</h2>
+				<div class="circle"></div>
+				<img src="images/dtc-media-transform-3d-1.png" alt="adidas sneaker" class="voorgrond">
+				<img src="images/dtc-media-transform-3d-2.png" alt="adidas sneaker" class="midden">
+				<img src="images/dtc-media-transform-3d-3.png" alt="adidas sneaker" class="achtergrond">
+				
+			</a>
+			
+			<a href="logopedie-boxmeer.html" class="box">
+				
+				<h2 class="name">Logopedie Boxmeer</h2>
+				<div class="circle"></div>
+				<img src="images/MacBook-Design-Mockup-logopedie-boxmeer-1.png" alt="adidas sneaker" class="voorgrond-logopedie">
+				<img src="images/MacBook-Design-Mockup-logopedie-boxmeer-2.png" alt="adidas sneaker" class="midden-logopedie">
+				<img src="images/MacBook-Design-Mockup-logopedie-boxmeer-3.png" alt="adidas sneaker" class="achtergrond-logopedie">
+			</a>
+			<a href="kwik.html" class="box">
+				<h2 class="name">Webbio</h2>
+				<div class="circle"></div>
+				<img src="images/webbio-transform-3d-1.png" alt="adidas sneaker" class="voorgrond-webbio">
+					<img src="images/webbio-transform-3d-2.png" alt="adidas sneaker" class="achtergrond-webbio">
+			</a>
+			<a href="mijn-werk.html" class="box">
+				<h2 class="name">Meer eigen werk</h2>
+				<div class="circle"></div>
+				<img src="images/meer-opdrachten.png" alt="adidas sneaker" class="ga-naar-opdrachten">
+					<img src="images/meer-opdrachten-macbook.png" alt="adidas sneaker" class="meer-opdrachten-macbook">
+								<img src="images/IMG_4622-1.png" alt="adidas sneaker" class="experimentele-fotografie1">
+				<img src="images/IMG_4622-2.png" alt="adidas sneaker" class="experimentele-fotografie2">
+				<img src="images/IMG_4622-3.png" alt="adidas sneaker" class="experimentele-fotografie3">
+				<img src="images/IMG_4622-4.png" alt="adidas sneaker" class="experimentele-fotografie4">
 
-        <div class="body-text">
-          <p>Studenten leren niet effectief omdat ze worden geconfronteerd met een chaos van materialen&nbsp;— boeken, slides, audio-opnames, leeruitkomsten&nbsp;— zonder samenhang, zonder richting, zonder terugkoppeling. Ze lezen passief. Ze highlighten en denken dat ze leren. Ze doen maar wat.</p>
-          <p>Tiemen Leert Praten is het antwoord. Niet een portal. Niet een digitaal boek. Een <strong>verwerkingsmachine</strong> die de student stap voor stap door de stof begeleidt&nbsp;— zonder dat de student ook maar één beslissing hoeft te nemen over <em>wat</em> of <em>hoe</em> ze studeren.</p>
-          <p>Het platform werkt als een GPS voor het brein. De route ligt vast. De student rijdt.</p>
-        </div>
-      </section>
+			</a>
+		</div>
+		</div>
+			
+		</div>
+	</div>
+	
+	<div class="playground">
+		<div class="container">
+			<h1>PLAYGROUND</h1>
+			
+		
+			  
+			<div>
+				<figure>
+					
+					            <div class="scroller" data-rateY="-.05" data-direction="horizontal" data-rateX=".01"> 
+					<blockquote>You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in the future.
+					</blockquote></div> 
+					<figcaption>
+						- Steve Jobs
+					</figcaption>
+				</figure>
+			</div>
+			<div class="uitleg-playground">
+				<p>De plek voor kunstprojecten en hobby's binnen en buiten mijn vakgebied.</p>
+				</div>
+			<br>
+			
+			<h2>Muziek</h2>
+			<div class="soundcloud-container">
+			<iframe class="soundcloud" height="240" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/443898183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+			
+			<iframe class="soundcloud" height="240" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/301364276&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+			</div>
+			<h2>Fotografie</h2>
+			
+			<div class="hide-desktop">
+						<div class="grafische-opdrachten-container">
+				<ul class="grafische-opdrachten">
+					<li>
+						<a href="fotografie.html#muziekfotografie">
+						<img src="images/img_1374.jpg" alt="Muziekfotografie">
+						<p class="portfolio-titles">Muziekfotografie</p>
+						</a>
+					</li>
 
-      <hr class="section-divider">
+					<li>
+						<a href="fotografie.html#experimentele-fotografie">
+						<img src="images/IMG_6250.jpg" alt="Experimentele fotografie">
+						<p class="portfolio-titles">Experimentele fotografie</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+			
+<div class="show-desktop hide-mobile">
+				<div class="fotografie">
+		<div class="bewegende-container">
+			
+			<a href="muziekfotografie.html" class="box">
+				
+				<h2 class="name">Muziekfotografie</h2>
+				<img src="images/IMG_1284-3.jpg" class="kaart-achtergrond" alt="kaart achtergrond">
+				
+				<img src="images/IMG_1284-1.png" alt="adidas sneaker" class="voorgrond-muziekfotografie">
+				<img src="images/IMG_1284-2.png" alt="adidas sneaker" class="midden-muziekfotografie">
+			</a>
+			
+			<a href="experimentele-fotografie.html" class="box">
+				
+				<h2 class="name">Experimentele fotografie</h2>
+				<img src="images/IMG_4622-5.jpg" class="kaart-achtergrond" alt="kaart achtergrond">
+				<img src="images/IMG_4622-1.png" alt="adidas sneaker" class="experimentele-fotografie1">
+				<img src="images/IMG_4622-2.png" alt="adidas sneaker" class="experimentele-fotografie2">
+				<img src="images/IMG_4622-3.png" alt="adidas sneaker" class="experimentele-fotografie3">
+				<img src="images/IMG_4622-4.png" alt="adidas sneaker" class="experimentele-fotografie4">
+			</a>
+			
+		</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="contact">
+		<div class="container">
+			<h1>CONTACT</h1>
+			
+			 
+			
+			<div>
+				<figure>
+					<a href="mailto:tiemenmeertens@gmail.com" target="_blank">
+						<blockquote>Kan ik iets voor je betekenen?
+						</blockquote>
+					</a>
+				</figure>
+			</div>
+			<p>tiemenmeertens@gmail.com</p>
+		</div>
+	</div>
+	
+	<footer>
+	<div class="footer-container">
+		<div class="container">
+			<a href="#">
+				<img src="images/logo-grijs.svg" alt="tmlogo" style="height: 70px" />
+			</a>
+			<p class="policy">© 2020 Tiemen Meertens</p>
+			<ul class="footer-links">
+					<li><a href="mijn-werk.html">Mijn werk</a></li>
+					<li><a href="fotografie.html">Fotografie</a></li>
+					<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>	
+	</div>
+	</footer>
+	
+	<script>
+	
+		var menu = document.getElementById('menu');
+		var nav = document.getElementById('nav');
+		var exit = document.getElementById('exit');
+	
+		menu.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+		exit.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');	
+			e.preventDefault();
+		});
+		
+	</script>
+	
+		<script>
+	
+		        window.addEventListener('scroll', function(e) {
 
-      <section id="principes">
-        <h2 class="principles-heading">Drie kernprincipes</h2>
-        <div class="principles-grid">
+            const target = document.querySelectorAll('.scroller');
 
-          <div class="principle-card">
-            <span class="number">I</span>
-            <p class="label">Nul wrijving</p>
-            <p>De student opent het platform en weet direct wat te doen. Geen keuzemenu's, geen 'waar begin ik?'&nbsp;— het systeem bepaalt de volgorde. Altijd.</p>
-          </div>
+            var index = 0, length = target.length;
+            for (index; index < length; index++) {
+                var pos = window.pageYOffset * target[index].dataset.rate;
 
-          <div class="principle-card">
-            <span class="number">II</span>
-            <p class="label">Actief verwerken</p>
-            <p>Elke interactie dwingt de student om kennis in eigen woorden te formuleren. Passief lezen bestaat niet meer. Het platform accepteert het simpelweg niet.</p>
-          </div>
+                if(target[index].dataset.direction === 'vertical') {
+                    target[index].style.transform = 'translate3d(0px,'+pos+'px, 0px)';
+                } else {
+                    var posX = window.pageYOffset * target[index].dataset.ratex;
+                    var posY = window.pageYOffset * target[index].dataset.ratey;
+                    
+                    target[index].style.transform = 'translate3d('+posX+'px, '+posY+'px, 0px)';
+                }
+            }
 
-          <div class="principle-card full">
-            <span class="number">III</span>
-            <p class="label">Slimme herhaling</p>
-            <p>Het systeem weet wat de student weet&nbsp;— en wat niet. Herhaling wordt automatisch gepland op het moment dat het brein het meest ontvankelijk is.</p>
-          </div>
 
-        </div>
-      </section>
-
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 Tiemen Meertens</p>
-      <p>tiemenmeertens@gmail.com</p>
-    </div>
-  </footer>
-
+        });
+			
+			
+			
+			
+	
+	
+	</script>
+			<script src="vanilla-tilt.min.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+	</script>
+	
 </body>
 </html>
